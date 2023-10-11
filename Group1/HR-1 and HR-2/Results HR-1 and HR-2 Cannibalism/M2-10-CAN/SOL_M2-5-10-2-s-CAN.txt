@@ -1,0 +1,15 @@
+Result of Relaxed Model2 of Cetin, F. and Alabas-Uslu, C. (2015).article
+Number of Products = 10   Number of Clients = 2000    Hurdle Rate = 0.05
+ 
+Custo total: 28567.10405961497
+Elapsed Time: 0.606016599 sec
+ 
+Result of Relaxed Model3 (H-R1) of Cetin, F. and Alabas-Uslu, C. (2015).article
+ 
+Custo total: 22768.0
+Elapsed Time: 0.528228399 sec
+ 
+Result of Relaxed Model4 (H-R2) of Cetin, F. and Alabas-Uslu, C. (2015).article
+ 
+Custo total: 22757.0
+Elapsed Time: 0.417302301 sec

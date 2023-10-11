@@ -1,0 +1,41 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.26 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 3 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 1030 rows, 10010 columns, and 47034 nonzeros.
+Reduced MIP has 10010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (18.23 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1030 rows, 10010 columns, and 47034 nonzeros.
+Reduced MIP has 10010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (20.47 ticks)
+Probing time = 0.03 sec. (8.38 ticks)
+Clique table members: 33577.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.08 sec. (74.73 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    61513.0000              --- 
+*     0+    0                         3667.0000    61513.0000              --- 
+      0     0    34260.6460    10     3667.0000    34260.6460     2015  834.30%
+*     0+    0                        17610.0000    34260.6460            94.55%
+      0     0    34243.0930    10    17610.0000  Cliques: 357     2030   44.51%
+*     0+    0                        17737.0000    25449.0050            43.48%
+      0     0        cutoff          17737.0000    17737.0000     2053    0.00%
+Elapsed time = 2.91 sec. (1367.36 ticks, tree = 0.01 MB, solutions = 4)
+
+Clique cuts applied:  712
+
+Root node processing (before b&c):
+  Real time             =    2.91 sec. (1368.13 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.91 sec. (1368.13 ticks)

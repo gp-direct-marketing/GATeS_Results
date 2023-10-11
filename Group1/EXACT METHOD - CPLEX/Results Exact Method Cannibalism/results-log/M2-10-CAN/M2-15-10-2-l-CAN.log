@@ -1,0 +1,41 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.52 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 2029 rows, 20010 columns, and 92034 nonzeros.
+Reduced MIP has 20010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (35.80 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2029 rows, 20010 columns, and 92034 nonzeros.
+Reduced MIP has 20010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (40.01 ticks)
+Probing time = 0.05 sec. (14.08 ticks)
+Clique table members: 66077.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.23 sec. (247.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   122749.0000              --- 
+*     0+    0                         7134.0000   122749.0000              --- 
+*     0+    0                         7149.0000   122749.0000              --- 
+      0     0    72326.7610    10     7149.0000    72326.7610       15  911.70%
+*     0+    0                        47324.0000    72326.7610            52.83%
+*     0+    0                        48012.0000    72326.7610            50.64%
+      0     0        cutoff          48012.0000    48012.0000       42    0.00%
+Elapsed time = 6.22 sec. (2870.15 ticks, tree = 0.01 MB, solutions = 5)
+
+Clique cuts applied:  607
+
+Root node processing (before b&c):
+  Real time             =    6.22 sec. (2871.81 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    6.22 sec. (2871.81 ticks)

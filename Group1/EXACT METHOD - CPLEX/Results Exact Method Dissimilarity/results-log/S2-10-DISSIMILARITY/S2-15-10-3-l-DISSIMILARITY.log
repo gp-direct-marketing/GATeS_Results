@@ -1,0 +1,43 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.05 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 229 rows, 2010 columns, and 9234 nonzeros.
+Reduced MIP has 2010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.68 ticks)
+Probing time = 0.00 sec. (3.15 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 229 rows, 2010 columns, and 9234 nonzeros.
+Reduced MIP has 2010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (4.10 ticks)
+Probing time = 0.00 sec. (3.09 ticks)
+Clique table members: 6677.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (9.10 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    12487.0000              --- 
+      0     0     6596.5150    10        0.0000     6596.5150      571     --- 
+      0     0     6559.8400    10        0.0000  Cliques: 157      593     --- 
+      0     0     6547.6089    15        0.0000     Cuts: 157      607     --- 
+*     0+    0                         2969.0000     6547.6089           120.53%
+      0     0        cutoff           2969.0000     2969.0000      691    0.00%
+Elapsed time = 0.19 sec. (114.15 ticks, tree = 0.01 MB, solutions = 2)
+
+Clique cuts applied:  459
+Cover cuts applied:  1
+Implied bound cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (114.29 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (114.29 ticks)

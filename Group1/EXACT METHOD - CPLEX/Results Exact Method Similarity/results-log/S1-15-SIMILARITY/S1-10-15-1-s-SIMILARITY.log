@@ -1,0 +1,109 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 149 rows, 1515 columns, and 7551 nonzeros.
+Reduced MIP has 1515 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.97 ticks)
+Probing time = 0.00 sec. (2.69 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 149 rows, 1515 columns, and 7551 nonzeros.
+Reduced MIP has 1515 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (3.52 ticks)
+Probing time = 0.00 sec. (2.62 ticks)
+Clique table members: 5107.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (5.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     9169.0000              --- 
+*     0+    0                         1471.0000     9169.0000           523.32%
+      0     0     2420.6333    17     1471.0000     2420.6333      258   64.56%
+      0     0     2026.7616   111     1471.0000     Cuts: 150      564   37.78%
+      0     0     1869.1370   242     1471.0000     Cuts: 150      955   27.07%
+*     0+    0                         1704.0000     1869.1370             9.69%
+      0     0     1826.6028   278     1704.0000     Cuts: 150     1196    7.20%
+      0     0     1802.2439   284     1704.0000     Cuts: 138     1395    5.77%
+      0     0     1791.6583   334     1704.0000     Cuts: 136     1538    5.14%
+*     0+    0                         1739.0000     1791.6583             3.03%
+      0     0     1785.1488   360     1739.0000     Cuts: 112     1651    2.65%
+      0     0     1780.5586   340     1739.0000      Cuts: 51     1733    2.39%
+*     0+    0                         1740.0000     1780.5586             2.33%
+      0     0     1778.3345   349     1740.0000     Cuts: 106     1806    2.20%
+      0     0     1776.6734   336     1740.0000      Cuts: 68     1853    2.11%
+      0     0     1775.5594   324     1740.0000      Cuts: 57     1896    2.04%
+      0     0     1773.0362   360     1740.0000      Cuts: 44     1960    1.90%
+      0     0     1771.6592   361     1740.0000      Cuts: 29     2022    1.82%
+      0     0     1770.3669   363     1740.0000      Cuts: 41     2067    1.75%
+      0     0     1769.1887   344     1740.0000      Cuts: 29     2124    1.68%
+      0     0     1768.1700   366     1740.0000      Cuts: 31     2191    1.62%
+      0     0     1766.0650   340     1740.0000      Cuts: 37     2271    1.50%
+      0     0     1764.5044   339     1740.0000      Cuts: 28     2326    1.41%
+      0     0     1763.4387   342     1740.0000      Cuts: 22     2367    1.35%
+      0     0     1763.0738   369     1740.0000      Cuts: 14     2385    1.33%
+      0     0     1762.2656   341     1740.0000      Cuts: 24     2421    1.28%
+      0     0     1761.6221   364     1740.0000      Cuts: 20     2461    1.24%
+      0     0     1759.9367   349     1740.0000      Cuts: 19     2545    1.15%
+      0     0     1754.6576   310     1740.0000      Cuts: 54     2624    0.84%
+      0     0     1754.0536   346     1740.0000      Cuts: 62     2660    0.81%
+      0     0     1753.2274   347     1740.0000      Cuts: 49     2699    0.76%
+      0     0     1752.5186   295     1740.0000      Cuts: 26     2744    0.72%
+      0     0     1751.7920   317     1740.0000      Cuts: 30     2769    0.68%
+      0     0     1751.6050   319     1740.0000      Cuts: 22     2787    0.67%
+      0     0     1751.2909   345     1740.0000      Cuts: 32     2809    0.65%
+*     0+    0                         1743.0000     1751.2909             0.48%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 508 columns.
+MIP Presolve modified 14 coefficients.
+Reduced MIP has 148 rows, 1007 columns, and 4945 nonzeros.
+Reduced MIP has 1007 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.19 ticks)
+Probing time = 0.00 sec. (2.28 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 148 rows, 1007 columns, and 4945 nonzeros.
+Reduced MIP has 1007 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.33 ticks)
+Represolve time = 0.03 sec. (18.67 ticks)
+Probing time = 0.00 sec. (2.26 ticks)
+Clique table members: 3409.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.05 sec. (44.21 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1743.0000     1751.2909             0.48%
+      0     0     1751.2909   345     1743.0000     1751.2909     3593    0.48%
+      0     0     1751.0944   315     1743.0000      Cuts: 32     3619    0.29%
+      0     0     1750.9796   350     1743.0000      Cuts: 39     3638    0.29%
+      0     0     1750.6161   329     1743.0000       Cuts: 5     3674    0.29%
+      0     0     1750.4866   297     1743.0000      Cuts: 16     3696    0.29%
+      0     0     1750.3520   311     1743.0000      Cuts: 12     3726    0.29%
+      0     2     1750.3520   311     1743.0000     1746.0000     3726    0.17%
+Elapsed time = 2.36 sec. (1170.40 ticks, tree = 0.01 MB, solutions = 6)
+*   120    49      integral     0     1744.0000     1745.5000     6587    0.09%
+*   155     3      integral     0     1745.0000     1745.0817     7111    0.00%
+
+Clique cuts applied:  170
+Cover cuts applied:  57
+Implied bound cuts applied:  62
+Flow cuts applied:  23
+Mixed integer rounding cuts applied:  40
+Zero-half cuts applied:  21
+
+Root node processing (before b&c):
+  Real time             =    2.37 sec. (1169.66 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.11 sec. (71.02 ticks)
+  Sync time (average)   =    0.02 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.48 sec. (1240.68 ticks)

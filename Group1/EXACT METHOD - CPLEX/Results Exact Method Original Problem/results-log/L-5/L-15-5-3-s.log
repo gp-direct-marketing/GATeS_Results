@@ -1,0 +1,43 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (1.31 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 10016 rows, 50005 columns, and 250015 nonzeros.
+Reduced MIP has 50005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.13 sec. (146.19 ticks)
+Probing time = 0.02 sec. (11.90 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 10016 rows, 50005 columns, and 250015 nonzeros.
+Reduced MIP has 50005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.17 sec. (168.10 ticks)
+Probing time = 0.03 sec. (11.90 ticks)
+Clique table members: 60000.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.72 sec. (774.38 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   308606.0000              --- 
+*     0+    0                        25595.0000   308606.0000              --- 
+      0     0   107458.4439     5    25595.0000   107458.4439       10  319.84%
+*     0+    0                        75291.0000   107458.4439            42.72%
+*     0+    0                        81458.0000   107458.4439            31.92%
+      0     0        cutoff          81458.0000    81458.0000     5335    0.00%
+Elapsed time = 17.63 sec. (10417.36 ticks, tree = 0.01 MB, solutions = 4)
+
+Clique cuts applied:  2599
+Cover cuts applied:  1
+Implied bound cuts applied:  1
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =   17.64 sec. (10421.31 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   17.64 sec. (10421.31 ticks)

@@ -1,0 +1,47 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 128 rows, 1010 columns, and 4534 nonzeros.
+Reduced MIP has 1010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.93 ticks)
+Probing time = 0.00 sec. (2.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 128 rows, 1010 columns, and 4534 nonzeros.
+Reduced MIP has 1010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.13 ticks)
+Probing time = 0.00 sec. (1.98 ticks)
+Clique table members: 3327.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (3.16 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     6354.0000              --- 
+*     0+    0                          311.0000     6354.0000              --- 
+      0     0     3600.7100    10      311.0000     3600.7100      299     --- 
+      0     0     3490.9612    33      311.0000     Cuts: 150      364     --- 
+      0     0     3177.4847   123      311.0000     Cuts: 150      594  921.70%
+      0     0     2389.8340   203      311.0000     Cuts: 145     1092  668.44%
+*     0+    0                         1561.0000     2389.8340            53.10%
+      0     0        cutoff           1561.0000     1561.0000     1419    0.00%
+Elapsed time = 0.11 sec. (104.04 ticks, tree = 0.01 MB, solutions = 3)
+
+GUB cover cuts applied:  3
+Clique cuts applied:  380
+Cover cuts applied:  24
+Implied bound cuts applied:  2
+Mixed integer rounding cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    0.11 sec. (104.12 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.11 sec. (104.12 ticks)

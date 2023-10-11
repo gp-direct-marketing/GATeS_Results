@@ -1,0 +1,48 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 333 rows, 3010 columns, and 15034 nonzeros.
+Reduced MIP has 3010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (5.77 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 333 rows, 3010 columns, and 15034 nonzeros.
+Reduced MIP has 3010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.84 ticks)
+Probing time = 0.02 sec. (3.61 ticks)
+Clique table members: 9945.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.03 sec. (17.58 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    18432.0000              --- 
+*     0+    0                         3047.0000    18432.0000           504.92%
+      0     0     5084.3550    12     3047.0000     5084.3550      606   66.86%
+      0     0     4393.0045    59     3047.0000     Cuts: 183     1004   44.17%
+*     0+    0                         3449.0000     4393.0045            27.37%
+      0     0     3996.2750   313     3449.0000     Cuts: 183     1579   15.87%
+*     0+    0                         3470.0000     3996.2750            15.17%
+      0     0     3865.2961   480     3470.0000     Cuts: 183     1962   11.39%
+      0     0     3777.1994   604     3470.0000     Cuts: 183     2377    8.85%
+*     0+    0                         3475.0000     3777.1994             8.70%
+      0     0        cutoff           3475.0000     3475.0000     2804    0.00%
+Elapsed time = 1.17 sec. (547.14 ticks, tree = 0.01 MB, solutions = 5)
+
+Clique cuts applied:  565
+Cover cuts applied:  4
+Implied bound cuts applied:  21
+Mixed integer rounding cuts applied:  45
+Zero-half cuts applied:  12
+
+Root node processing (before b&c):
+  Real time             =    1.17 sec. (547.42 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.17 sec. (547.42 ticks)

@@ -1,0 +1,41 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (2.56 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 10029 rows, 100010 columns, and 460034 nonzeros.
+Reduced MIP has 100010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.27 sec. (178.06 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 10029 rows, 100010 columns, and 460034 nonzeros.
+Reduced MIP has 100010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.39 sec. (199.30 ticks)
+Probing time = 0.30 sec. (59.69 ticks)
+Clique table members: 330077.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 1.36 sec. (827.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   622176.0000              --- 
+*     0+    0                        15183.0000   622176.0000              --- 
+*     0+    0                       159530.0000   622176.0000           290.01%
+*     0+    0                       159616.0000   622176.0000           289.80%
+      0     0   342500.9338    10   159616.0000   342500.9338       16  114.58%
+*     0+    0                       202330.0000   342500.9338            69.28%
+      0     0        cutoff         202330.0000   202330.0000       51    0.00%
+Elapsed time = 105.81 sec. (43139.04 ticks, tree = 0.01 MB, solutions = 5)
+
+Clique cuts applied:  2607
+
+Root node processing (before b&c):
+  Real time             =  105.83 sec. (43147.32 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  105.83 sec. (43147.32 ticks)

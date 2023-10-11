@@ -1,0 +1,45 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 316 rows, 1505 columns, and 7515 nonzeros.
+Reduced MIP has 1505 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.71 ticks)
+Probing time = 0.00 sec. (1.56 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 316 rows, 1505 columns, and 7515 nonzeros.
+Reduced MIP has 1505 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.29 ticks)
+Probing time = 0.00 sec. (1.56 ticks)
+Clique table members: 1500.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (8.39 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     9594.0000              --- 
+      0     0     4903.0167     5        0.0000     4903.0167      515     --- 
+      0     0     3593.7497   219        0.0000     Cuts: 179     1099     --- 
+*     0+    0                         1748.0000     3593.7497           105.59%
+      0     0        cutoff           1748.0000     1748.0000     2051    0.00%
+Elapsed time = 0.22 sec. (207.21 ticks, tree = 0.01 MB, solutions = 2)
+
+Clique cuts applied:  285
+Cover cuts applied:  2
+Implied bound cuts applied:  2
+Mixed integer rounding cuts applied:  15
+Zero-half cuts applied:  4
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.22 sec. (207.32 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.22 sec. (207.32 ticks)

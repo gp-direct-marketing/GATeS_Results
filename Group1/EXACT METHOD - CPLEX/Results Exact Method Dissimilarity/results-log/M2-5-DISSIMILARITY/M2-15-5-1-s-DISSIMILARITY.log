@@ -1,0 +1,45 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.26 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 2017 rows, 10005 columns, and 50017 nonzeros.
+Reduced MIP has 10005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (21.74 ticks)
+Probing time = 0.02 sec. (8.53 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2017 rows, 10005 columns, and 50017 nonzeros.
+Reduced MIP has 10005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (25.55 ticks)
+Probing time = 0.02 sec. (7.72 ticks)
+Clique table members: 32064.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.14 sec. (161.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    61441.0000              --- 
+*     0+    0                         3104.0000    61441.0000              --- 
+*     0+    0                         3495.0000    61441.0000              --- 
+*     0+    0                         3571.0000    61441.0000              --- 
+*     0+    0                         3601.0000    61441.0000              --- 
+      0     0    20997.0895     5     3601.0000    20997.0895     2702  483.09%
+*     0+    0                        13244.0000    20997.0895            58.54%
+      0     0        cutoff          13244.0000    13244.0000     4113    0.00%
+Elapsed time = 1.64 sec. (950.50 ticks, tree = 0.01 MB, solutions = 6)
+
+Clique cuts applied:  596
+Cover cuts applied:  3
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    1.64 sec. (951.43 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.64 sec. (951.43 ticks)

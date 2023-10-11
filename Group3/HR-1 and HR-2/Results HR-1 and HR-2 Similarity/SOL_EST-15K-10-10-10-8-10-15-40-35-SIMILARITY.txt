@@ -1,0 +1,15 @@
+Result of Relaxed Model2 of Cetin, F. and Alabas-Uslu, C. (2015).article
+Number of Products = 10   Number of Clients = 15000    Hurdle Rate = 0.1
+ 
+Custo total: 65265.71371820883
+Elapsed Time: 10.17398 sec
+ 
+Result of Relaxed Model3 (H-R1) of Cetin, F. and Alabas-Uslu, C. (2015).article
+ 
+Custo total: 27332.0
+Elapsed Time: 16.816730299 sec
+ 
+Result of Relaxed Model4 (H-R2) of Cetin, F. and Alabas-Uslu, C. (2015).article
+ 
+IMPOSSIBLE TO SOLVE THE PROBLEM: HEURISTIC REMOVE ALL PRODUCTS FROM CAMPAIGN
+Elapsed Time: 11.7176601 sec

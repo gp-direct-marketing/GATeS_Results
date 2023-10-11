@@ -1,0 +1,39 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.13 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 1017 rows, 5005 columns, and 25017 nonzeros.
+Reduced MIP has 5005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (8.96 ticks)
+Probing time = 0.02 sec. (5.90 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1017 rows, 5005 columns, and 25017 nonzeros.
+Reduced MIP has 5005 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (10.89 ticks)
+Probing time = 0.02 sec. (5.81 ticks)
+Clique table members: 17564.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.03 sec. (34.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    30715.0000              --- 
+      0     0    17645.2150     5        0.0000    17645.2150     1338     --- 
+*     0+    0                         3735.0000    17645.2150           372.43%
+*     0+    0                        10426.0000    17645.2150            69.24%
+      0     0        cutoff          10426.0000    10426.0000     1345    0.00%
+Elapsed time = 0.56 sec. (320.99 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  354
+
+Root node processing (before b&c):
+  Real time             =    0.56 sec. (321.35 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.56 sec. (321.35 ticks)

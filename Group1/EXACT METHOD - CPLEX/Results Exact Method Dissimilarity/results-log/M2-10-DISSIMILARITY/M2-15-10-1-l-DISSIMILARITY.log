@@ -1,0 +1,41 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.52 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 2031 rows, 20010 columns, and 96034 nonzeros.
+Reduced MIP has 20010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (36.55 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2031 rows, 20010 columns, and 96034 nonzeros.
+Reduced MIP has 20010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (41.29 ticks)
+Probing time = 0.05 sec. (13.82 ticks)
+Clique table members: 68077.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.19 sec. (256.54 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   124237.0000              --- 
+*     0+    0                         6175.0000   124237.0000              --- 
+      0     0    66598.2920    10     6175.0000    66598.2920       16  978.51%
+*     0+    0                        31578.0000    66598.2920           110.90%
+*     0+    0                        33089.0000    66598.2920           101.27%
+      0     0    66559.1510    10    33089.0000  Cliques: 607       39   44.50%
+      0     0        cutoff          33089.0000    33089.0000       47    0.00%
+Elapsed time = 13.38 sec. (5120.05 ticks, tree = 0.01 MB, solutions = 4)
+
+Clique cuts applied:  1213
+
+Root node processing (before b&c):
+  Real time             =   13.38 sec. (5121.60 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   13.38 sec. (5121.60 ticks)
